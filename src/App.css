@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Lato&display=swap);
+
+body {
+  background-color: #f7f7f7;
+  font-family: "Lato", sans-serif;
+}
+
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+form input {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form button {
+  width: 100px; 
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #ccc;
+  color: #fff;
+}
+.news-container {
+  margin-top: 30px;
+}
+.news-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 12px 16px 20px;
+  margin-bottom: 10px;
+}
+
+.news-card h3 {
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  color: #1c1e29;
+}
+
+.pagination {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 20px 10px;
+  margin: 0;
+  list-style: none;
+
+}
+
+.pagination a  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 8px;
+  font-size: 20px;
+  background-color: #fff;
+  color: #1c1e29;
+  text-decoration: none;
+  padding: 10px 12px;
+}
+
+.pagination a:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.active-page a {
+  background-color: #ccc;
+  color: #fff;
+}
+
+
+
+
+
